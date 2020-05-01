@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #58402C;
+}
+
+* body {
+  background: white;
+}
+
+* body .bottone {
+  padding: 8px 15px;
+  background: #30488f;
+  color: white;
+  border-radius: 10px;
+}
+
+* body .bottone:hover {
+  background: white;
+  color: #30488f;
+  border: 1px solid #30488f;
+}
+
+* body a {
+  color: #58402C;
+  text-decoration: none;
+}
+
+* body nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #58402C;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+}
+
+* body nav .navlogo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 72px;
+  width: 12%;
+  font-size: 30px;
+}
+
+* body nav .navlogo img {
+  height: 32px;
+}
+
+* body nav .navlinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 28%;
+  margin-right: 75px;
+}
+
+* body .jumbotron {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  height: 350px;
+}
+
+* body .jumbotron .jumbotesti {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+  height: 100%;
+}
+
+* body .jumbotron .jumbotesti h1 {
+  font-size: 55px;
+}
+
+* body .jumbotron .jumbotesti p {
+  font-size: 25px;
+}
+
+* body .jumbotron img {
+  height: 300px;
+}
+
+* body .rosa1 {
+  background: #FFE7D2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 1800px;
+}
+
+* body .rosa1 .hr {
+  height: 1px;
+  background: #58402C;
+  width: 85%;
+}
+
+* body .rosa1 img {
+  max-height: 300px;
+}
+
+* body .rosa1 .bloccorosa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+* body .rosa1 .bloccorosa div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 180px;
+}
+
+* body .rosa1 .bloccorosa div p {
+  width: 70%;
+}
+
+* body .rosa1 .bloccorosa div img {
+  height: 100px;
+}
+
+* body .sezionescreens {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 2400px;
+}
+
+* body .sezionescreens .bloccoscreen {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+* body .sezionescreens .bloccoscreen img {
+  height: 470px;
+}
+
+* body .sezionescreens .bloccoscreen .screentesti {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 450px;
+  width: 450px;
+  font-size: 25px;
+}
+
+* body .sezionescreens .bloccoscreen .screentesti img {
+  height: 200px;
+  width: 245px;
+}
+
+* body .sezionescreens .bloccoscreen .screentesti a {
+  color: #0058cc;
+}
+
+* body .bloccocit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #FFE7D2;
+  height: 700px;
+}
+
+* body footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 560px;
+  width: 95%;
+}
+
+* body footer .footerlogo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-self: flex-start;
+  margin-top: 60px;
+  width: 30%;
+}
+
+* body footer .footerlogo .logoh3 {
+  width: 65%;
+}
+
+* body footer .footerlogo .logoh3 a {
+  color: #0058cc;
+}
+
+* body footer .footerlist {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-items: baseline;
+  width: 60%;
+}
+
+* body footer .footerlist a:hover {
+  color: #0058cc;
+}
+
+* body footer .footerlist li {
+  max-width: 100px;
+  list-style-type: none;
+  line-height: 26px;
+}
+

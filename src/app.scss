@@ -1,0 +1,208 @@
+// importo i mixins
+@import "partials/mixins";
+
+$tantoper: 32px;
+
+// inizio scss
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  color: #58402C;
+
+  body{
+    background: white;
+
+    .bottone{
+      padding: 8px 15px;
+      background: #30488f;
+      color: white;
+      border-radius: 10px;
+
+      &:hover{
+        background: white;
+        color: #30488f;
+        border: 1px solid  #30488f;
+      }
+
+    }
+
+    a{
+      color: #58402C;
+      text-decoration: none;
+    }
+
+    nav{
+      @include flexbetween;
+      width: 100%;
+      height: 50px;
+      border-bottom: 1px solid #58402C;
+      position: fixed;
+      top:0;
+      left: 0;
+      background: white;
+
+      .navlogo{
+        @include flexaround;
+        margin-left: 72px;
+        width: 12%;
+        font-size: 30px;
+
+        img{
+          height: $tantoper;
+        }
+      }
+
+      .navlinks{
+        @include flexaround;
+        width: 28%;
+        margin-right: 75px;
+      }
+
+    }
+    // fine nav
+
+    .jumbotron{
+      @include flexaround;
+      margin-top: 100px;
+      height: 350px;
+
+      .jumbotesti{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 40%;
+        height: 100%;
+
+        h1{
+          font-size: 55px;
+        }
+
+        p{
+          font-size: 25px;
+        }
+
+      }
+
+      img{
+        height: 300px;
+      }
+    }
+    // fine jumbotron
+
+    .rosa1{
+      background: #FFE7D2;
+      @include flexvrt;
+      height: 1800px;
+
+      .hr{
+        height: 1px;
+        background: #58402C;
+        width: 85%
+      }
+
+      img{
+        max-height: 300px;
+      }
+
+      .bloccorosa{
+        @include flexaround;
+        text-align: center;
+
+        div{
+          @include flexvrt;
+          height: 180px;
+
+          p{
+            width: 70%;
+          }
+
+          img{
+            height: 100px;
+          }
+        }
+      }
+    }
+    // fine rosa1
+
+    .sezionescreens{
+    @include flexvrt;
+    height: 2400px;
+
+      .bloccoscreen{
+      @include flexaround;
+
+        img{
+          height: 470px;
+        }
+
+        .screentesti{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          height: 450px;
+          width: 450px;
+          font-size: 25px;
+
+          img{
+            height: 200px;
+            width: 245px;
+          }
+
+          a{
+            color: rgb(0, 88, 204);
+          }
+        }
+      }
+    }
+    // fine bloccoscreen
+
+    .bloccocit{
+      @include flexvrt;
+      background: #FFE7D2;
+      height: 700px;
+    }
+
+    footer{
+      @include flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      height: 560px;
+      width: 95%;
+
+      .footerlogo{
+        @include flexaround;
+        align-self: flex-start;
+        margin-top: 60px;
+        width: 30%;
+
+        .logoh3{
+          width: 65%;
+          a{
+            color: rgb(0, 88, 204);
+          }
+        }
+      }
+
+      .footerlist{
+        @include flexaround;
+        align-items: baseline;
+        width: 60%;
+
+        a:hover{
+          color: rgb(0, 88, 204);
+        }
+
+        ul{
+        }
+
+        li{
+          max-width: 100px;
+          list-style-type: none;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+}

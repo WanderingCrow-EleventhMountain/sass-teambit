@@ -1,0 +1,23 @@
+// i mixim sono una figata, promossi a pieni voti
+@mixin flex{
+  display: flex;
+}
+
+@mixin flexbetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexaround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin flexvrt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
